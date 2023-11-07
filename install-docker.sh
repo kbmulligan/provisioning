@@ -64,7 +64,7 @@ done
 
 # install all
 for FILENAME in ${REQUIRED_FILES[@]}; do
-    echo "Install$FILENAME ..."
+    echo "Install $FILENAME ..."
     sudo dpkg -i "./$FILENAME"
 done
 
